@@ -1,4 +1,4 @@
-# <img src="docs/ansible.png" alt="ansible" height="30"/> ansible
+# <img src=".gitlab/ansible.png" alt="ansible" height="30"/> ansible
 
 Obraz Dockerowy z narzędziem ansible i molecule.
 
