@@ -11,7 +11,9 @@ env:
   TF_IN_AUTOMATION: "true"
   LANG: C.UTF-8
 
-before_build_commands: []
+before_build_commands:
+  ## removal of default user 'ubuntu'
+  - chmod +x bin/removal_default_user
 
 packages:
   - bash
@@ -36,6 +38,7 @@ packages:
 custom_repos: []
 
 extra_commands:
+  - ./tmp/removal_default_user
   - |
     pip3 install --no-cache-dir --break-system-packages --ignore-installed \
         ansible \
@@ -50,7 +53,9 @@ extra_commands:
         testinfra
   - ansible --version
 
-copy: []
+copy:
+  - source: bin/removal_default_user
+    destination: /tmp/removal_default_user
 
 user:
   name: nonroot
