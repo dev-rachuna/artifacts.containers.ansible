@@ -2,7 +2,11 @@
 
 ::include{file=.gitlab/badges.md}
 
-Obraz Dockerowy z narzędziem ansible i molecule.
+Obraz Kontenerowy z narzędziem ansible i molecule.
+
+## Patch Management
+
+Zbudowano w dniu: 2026-05-29
 
 ---
 

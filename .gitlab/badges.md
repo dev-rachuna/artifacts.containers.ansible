@@ -6,4 +6,3 @@
 ![GitLab Issues](https://img.shields.io/gitlab/issues/open/dev.rachuna/artifacts/containers/ansible)
 ![GitLab Merge Requests](https://img.shields.io/gitlab/merge-requests/open/dev.rachuna/artifacts/containers/ansible)
 ![GitLab Contributors](https://img.shields.io/gitlab/contributors/dev.rachuna/artifacts/containers/ansible)
-![Language](https://img.shields.io/badge/Language-Markdown-00ADD8)
